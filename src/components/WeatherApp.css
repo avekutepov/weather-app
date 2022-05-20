@@ -1,0 +1,32 @@
+.weather-app {
+    width: 300px;
+    border: 1px solid #868686;
+}
+
+.weather-card {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.weather-card img {
+    height: 100px;
+}
+
+.forecast-block {
+    display: flex;
+    justify-content: space-evenly;
+    border: 1px solid #868686;
+}
+
+.forecast-card {
+    text-align: center;
+    border: 1px solid #868686;
+}
+
+input {
+    width: 75%;
+}
+
+button {
+    width: 20%;
+}

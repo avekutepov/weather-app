@@ -1,14 +1,12 @@
 import './App.css';
-import {useState} from "react";
-import SearchBar from "./components/SearchBar";
+import {useEffect, useState} from "react";
+import WeatherApp from "./components/WeatherApp";
+
 
 function App() {
 
-
   return (
-      <div>
-          <SearchBar />
-      </div>
+      <WeatherApp />
   );
 }
 
